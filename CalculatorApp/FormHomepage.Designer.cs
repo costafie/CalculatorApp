@@ -34,17 +34,18 @@
             // 
             // ButtonCalculator
             // 
-            this.ButtonCalculator.Location = new System.Drawing.Point(386, 103);
+            this.ButtonCalculator.Location = new System.Drawing.Point(340, 148);
             this.ButtonCalculator.Name = "ButtonCalculator";
             this.ButtonCalculator.Size = new System.Drawing.Size(75, 23);
             this.ButtonCalculator.TabIndex = 0;
             this.ButtonCalculator.Text = "Calculator";
             this.ButtonCalculator.UseCompatibleTextRendering = true;
             this.ButtonCalculator.UseVisualStyleBackColor = true;
+            this.ButtonCalculator.Click += new System.EventHandler(this.ButtonCalculator_Click_1);
             // 
             // ButtonAbout
             // 
-            this.ButtonAbout.Location = new System.Drawing.Point(386, 258);
+            this.ButtonAbout.Location = new System.Drawing.Point(340, 265);
             this.ButtonAbout.Name = "ButtonAbout";
             this.ButtonAbout.Size = new System.Drawing.Size(75, 23);
             this.ButtonAbout.TabIndex = 1;

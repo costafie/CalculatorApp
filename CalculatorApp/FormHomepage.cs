@@ -35,14 +35,12 @@ namespace CalculatorApp
 
         }
 
-        // 1 reference | 0 changes | 0 authors, 0 changes
-        private void ButtonCalculator_Click(object sender, EventArgs e)
-        { 
+        private void ButtonCalculator_Click_1(object sender, EventArgs e)
+        {
             if (formCalculator.Visible == true)
                 formCalculator.Visible = false;
             else
                 formCalculator.Visible = true;
-
         }
     }
 }
